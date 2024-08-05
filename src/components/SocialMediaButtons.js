@@ -21,10 +21,10 @@ const SocialMediaButtons = ({ handleTilt }) => {
   return (
     <div className="flex flex-col items-center mt-8 relative overflow-y-auto">
       {/* GIF Containers */}
-      <div className="gif-container left-gif">
+      <div className="gif-container left-gif pointer-events-none">
         <iframe src="https://giphy.com/embed/j0MxtY0mrRTV0VqKPn" width="100%" height="100%" frameBorder="0" className="giphy-embed" allowFullScreen></iframe>
       </div>
-      <div className="gif-container right-gif">
+      <div className="gif-container right-gif pointer-events-none">
         <iframe src="https://giphy.com/embed/j0MxtY0mrRTV0VqKPn" width="100%" height="100%" frameBorder="0" className="giphy-embed" allowFullScreen></iframe>
       </div>
 
